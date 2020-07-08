@@ -1,0 +1,40 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.qm
+*.user
+*.zip
+*.exe
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.so.*
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+*.dll
+
+
+# Compiled build dir
+*build*
+depends
+tags
+release*
+
+
+/colorizing/build
+/preprocessing/dep_sources
+/preprocessing/build
+/ros_base/deps
+
+# map
+*.pcd
+*.pgm
+
+# vscode
+.vscode
